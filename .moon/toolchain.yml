@@ -1,0 +1,11 @@
+$schema: 'https://moonrepo.dev/schemas/toolchain.json'
+
+node:
+  version: '22.0.0'
+  packageManager: 'bun'
+  bun:
+    version: '1.1.27'
+
+typescript:
+  createMissingConfig: true
+  syncProjectReferences: true
